@@ -1,9 +1,12 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import useTitle from "../hooks/useTitle.js";
 
 
 const ForgotPass = () => {
+  useTitle("Forgot Password");
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white relative">
 
