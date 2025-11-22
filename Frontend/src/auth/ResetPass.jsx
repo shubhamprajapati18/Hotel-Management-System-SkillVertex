@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import useTitle from "../hooks/useTitle.js";
 
 const ResetPass = () => {
-  useTitle("Sign Reset Password");
+  useTitle("Reset Password");
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white relative">
