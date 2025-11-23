@@ -25,7 +25,7 @@ const ResetPass = () => {
 
           <button
             type="submit"
-            className="w-full bg-red-500 text-white py-2 rounded-md hover:bg-red-600 transition"
+            className="w-full bg-red-500 text-white py-2 rounded-md hover:bg-red-600 transition cursor-pointer"
           >
             Save
           </button>

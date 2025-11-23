@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import useTitle from "../hooks/useTitle.js";
+import { Link } from "react-router-dom";
 
 const LinkSent = () => {
   useTitle("Link Sent");
@@ -16,10 +17,10 @@ const LinkSent = () => {
           We sent you an email with a link to reset your password.
         </p>
 
-        <p className="text-center text-sm tex-neutral-500 mt-4">
-          <a href="/sign-in" className="font-semibold hover:underline">
-            <span className="text-cyan-600">Go Back</span>
-          </a>
+        <p className="text-center text-sm mt-4">
+          <Link to="/sign-in" className="ont-semibold hover:underline text-cyan-600 cursor-pointer">
+            Go Back
+          </Link>
         </p>
 
       </div>

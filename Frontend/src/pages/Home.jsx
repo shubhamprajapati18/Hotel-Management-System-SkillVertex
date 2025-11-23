@@ -1,14 +1,14 @@
-import React from 'react'
-import useTitle from "../hooks/useTitle.js";
+import Navbar1 from "../components/shared/Navbar1";
 
 const Home = () => {
-  useTitle("Home");
-
   return (
-    <div>
-      Home Page
-    </div>
-  )
-}
+    <>
+      <Navbar1 />
+      <div className="p-6">
+        <p>Welcome to the HMS project.</p>
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
